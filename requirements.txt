@@ -1,5 +1,5 @@
 Django==4.2.20
-===asgiref==3.8.1
+asgiref==3.8.1
 sqlparse==0.5.3
 crispy-bootstrap5
 django-storages==1.14.6
