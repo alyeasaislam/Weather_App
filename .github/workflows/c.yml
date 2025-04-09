@@ -50,8 +50,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: weather-event-application
-          environment_name: weather-env 
+          application_name: Weather_App
+          environment_name: weather 
           version_label: ${{ github.run_number }}
           region: eu-west-1
           deployment_package: deploy.zip
